@@ -1,0 +1,104 @@
+body{
+	background-image: url(sfondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container{
+	width:1200px;
+	height: 825px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+header{
+	margin: auto;
+	position: relative;
+	top: 80px;
+}
+
+.logo{
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+
+header>h1{
+	font-family: 'Poppins', sans-serif;
+	color: lime;
+	text-align: center;
+	font-size: 25pt;
+	margin-block-start: 0.30em;
+  margin-block-end: 0.30em;
+}
+
+nav>input{
+	display: inline-block;
+}
+
+nav{
+	position: relative;
+	top: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: lime;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+div>h1{
+	width: 1000px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20pt;
+	margin: auto;
+	margin-left: auto;
+	position: relative;
+	top:110px
+}
+
+div>span{
+	display: block;
+	width: 1000px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+  margin: auto;
+	margin-left: auto;
+	position: relative;
+	top:110px
+	}
+
+#caricagino{
+	width: 350px;
+	padding-top: 15px;
+  padding-bottom: 15px;
+	background-color: rgb(255, 165, 0);
+	border-radius: 5px;
+	margin-left: 100px;
+
+}
+#caricamike{
+	width: 600px;
+	padding-top: 15px;
+  padding-bottom: 15px;
+	background-color: rgb(0, 180, 0);
+	border-radius: 5px;
+	margin-left: 100px;
+}
+#caricafede{
+	width: 180px;
+	padding-top: 15px;
+  padding-bottom: 15px;
+	background-color: rgb(255, 0, 0);
+	border-radius: 5px;
+	margin-left: 100px;
+}
+
+
+.arrow:after{
+	content: "\21A6";
+}
